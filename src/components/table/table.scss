@@ -1,0 +1,45 @@
+@import '../../SASS/reset';
+@import '../../SASS/variables';
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    text-align: left;
+    border: 3px solid rgb(221, 221, 221);
+    margin: 1rem 0;
+
+  }
+  
+  .table th, .table td {
+    padding: 8px 12px;
+    border: 1px solid #dcdcdc;
+  }
+  
+  .table thead {
+    background-color: $secondary;
+    text-align: center;
+  }
+  
+
+  .icon-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    color: $primary; /* Couleur de l'icône */
+    font-size: 1.9rem; /* Taille de l'icône */
+    padding: 5px;
+    margin: 0 3px;
+    transition: color 0.3s ease;
+  }
+  .delete{
+    color: $danger;
+  }
+  .icon-button:hover {
+    color: $secondary; /* Couleur de l'icône au survol */
+  }
+
+  .action-container{
+    display: flex;
+    justify-content: space-around;
+  }
